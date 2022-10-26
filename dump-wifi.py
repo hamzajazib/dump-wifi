@@ -4,7 +4,7 @@ from pathlib import Path
 
 SCRIPT_TITLE = "dump-wifi"
 SCRIPT_NAME = os.path.basename(__file__)
-SCRIPT_DESCRIPTION = "Dump data of saved Wi-Fi networks in Windows"
+SCRIPT_DESCRIPTION = "Dump JSON formatted data of saved Wi-Fi networks in Windows"
 
 def printTitle():
     print("-"*len(SCRIPT_TITLE) + "\n" + SCRIPT_TITLE + "\n" + "-"*len(SCRIPT_TITLE))
